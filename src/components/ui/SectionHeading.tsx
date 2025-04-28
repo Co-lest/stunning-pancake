@@ -48,3 +48,5 @@ const SectionHeading = ({
     </div>
     );
 }
+
+export default SectionHeading;
