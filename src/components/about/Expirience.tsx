@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import SectionHeading from "../ui/SectionHeading";
-import { expirience } from "../../data/expirience";
+import { expirience } from "../../data/Expirience";
 import { Calendar, Briefcase } from "lucide-react";
 
 const Expirience = () => {
