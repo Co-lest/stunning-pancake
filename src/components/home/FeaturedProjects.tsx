@@ -42,3 +42,5 @@ const FeaturedProjects = () => {
       </section>
     );
 }
+
+export default FeaturedProjects;

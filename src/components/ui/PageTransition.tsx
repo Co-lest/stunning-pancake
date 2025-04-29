@@ -5,7 +5,7 @@ interface PageTransitionProps {
     children: ReactNode;
 }
 
-const PageTransitions = ({ children }: PageTransitionProps) => {
+const PageTransition = ({ children }: PageTransitionProps) => {
     return (
         <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -18,4 +18,4 @@ const PageTransitions = ({ children }: PageTransitionProps) => {
     );
 }
 
-export default PageTransitions;
+export default PageTransition;
