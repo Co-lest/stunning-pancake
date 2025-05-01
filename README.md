@@ -13,28 +13,27 @@ I'm always eager to learn and explore new technologies. Feel free to connect and
 
 ## Portfolio Contents 📂
 
-This portfolio website is built using Tailwind, React and nodejs:
+This portfolio website is built using Tailwind, React and Typescript:
 
 * Homepage: A brief introduction about me and my aspirations.
 * Projects: A showcase of my featured projects with descriptions, visuals, and links to live demos and their respective GitHub repositories.
 * Skills: An overview of my technical proficiencies and soft skills.
 * Contact: Information on how to get in touch with me.
-* Resume: A downloadable version of my resume/CV.
+* Resume: My resume.
 
 ## Featured Projects ✨
 
 Here are a few highlights from my portfolio:
 
 ### [Project Title 1]
-* **Description:** [Briefly describe the project and its purpose. Highlight the problem it solves or the goal it achieves.]
-* **Key Technologies:** [List the main technologies used, e.g., React, Node.js, PostgreSQL.]
-* **GitHub Repository:** [Link to the GitHub repository of this project] ([![GitHub](https://img.shields.io/github/stars/[Your GitHub Username]/[Project Repo 1]?style=social)]([Link to GitHub Repo]))
+* **Description:** A canvas animated js displaying my skills in a cool way.
+* **Key Technologies:** React, Kaboomjs
+* **GitHub Repository:** https://github.com/Co-lest/Portfolio
 
 ### [Project Title 2]
-[![Project 2 Screenshot]([Optional: Link to a small screenshot or GIF of the project])]([Link to Live Demo or Project Website])
-* **Description:** [Briefly describe the project and its purpose.]
-* **Key Technologies:** [List the main technologies used.]
-* **GitHub Repository:** [Link to the GitHub repository of this project] ([![GitHub](https://img.shields.io/github/stars/[Your GitHub Username]/[Project Repo 2]?style=social)]([Link to GitHub Repo]))
+* **Description:** A simple quiz website that uses an api to fetch for questions.
+* **Key Technologies:** React, Reast API, Tailwind, Typescript
+* **GitHub Repository:** https://peaceful-chaja-cebcfc.netlify.app/
 
 ## Skills 🛠️
 

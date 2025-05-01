@@ -1,8 +1,16 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { AtSign, MapPin, Phone, Send } from 'lucide-react';
+import emailjs  from "@emailjs/browser";
+//import "dotenv/config";
 
 const ContactForm = () => {
+  // const apiKey = process.env.REACT_APP_API_KEY;
+  // const databaseUrl = process.env.REACT_APP_DATABASE_URL;
+  // const emailServiceId = process.env.EMAILJS_SERVICE_ID;
+  // const emailTemplateId = process.env.EMAILJS_TEMPLATE_ID;
+  // const emailUserId = process.env.EMAILJS_USER_ID;
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -65,14 +73,35 @@ const ContactForm = () => {
     
     if (validateForm()) {
       setIsSubmitting(true);
+
+      emailjs.send(
+          'service_mvbpuaf',
+          'template_9qs251q',
+          formData,
+          'Q9GI10zvgn95-ONrA'
+        )
+        .then(
+          (result) => {
+            console.log('SUCCESS!', result.text);
+            setIsSubmitting(false);
+            setSubmitSuccess(true);
+            setFormData({ name: '', email: '', subject: '', message: '' });
+            setTimeout(() => {
+              setSubmitSuccess(false);
+            }, 5000);
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+            setIsSubmitting(false);
+            // Optionally set an error state to display to the user
+          }
+        );
       
-      // Simulate API call
       setTimeout(() => {
         setIsSubmitting(false);
         setSubmitSuccess(true);
         setFormData({ name: '', email: '', subject: '', message: '' });
         
-        // Reset success message after 5 seconds
         setTimeout(() => {
           setSubmitSuccess(false);
         }, 5000);
@@ -105,7 +134,7 @@ const ContactForm = () => {
                 <div>
                   <h4 className="text-lg font-medium mb-1">Email</h4>
                   <a href="mailto:your-email@example.com" className="text-gray-600 hover:text-primary-600 transition-colors">
-                    your-email@example.com
+                    markbironga@gmail.com
                   </a>
                 </div>
               </div>
@@ -118,8 +147,8 @@ const ContactForm = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium mb-1">Phone</h4>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-primary-600 transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+254742696360" className="text-gray-600 hover:text-primary-600 transition-colors">
+                    +254742696360
                   </a>
                 </div>
               </div>
@@ -133,7 +162,7 @@ const ContactForm = () => {
                 <div>
                   <h4 className="text-lg font-medium mb-1">Location</h4>
                   <p className="text-gray-600">
-                    City, Country
+                    Eldoret, Kenya
                   </p>
                 </div>
               </div>
