@@ -4,9 +4,8 @@ import { Check } from 'lucide-react';
 const AboutMe = () => {
   const achievements = [
     '5+ years of professional experience',
-    '50+ projects completed',
-    'Worked with Fortune 500 companies',
-    'Multiple industry certifications'
+    '10+ projects completed',
+    'Worked with 5 companies',
   ];
 
   return (
@@ -72,10 +71,6 @@ const AboutMe = () => {
                 </motion.li>
               ))}
             </ul>
-            
-            <a href="#" className="btn btn-primary px-6 py-3">
-              Download Resume
-            </a>
           </motion.div>
         </div>
       </div>

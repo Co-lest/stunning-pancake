@@ -20,7 +20,8 @@ interface TechnicalSkill {
       { name: "React", percentage: 88 },
       { name: "TypeScript", percentage: 72 },
       { name: "Node.js", percentage: 90 },
-      { name: "UI/UX Design", percentage: 80 }
+      { name: "UI/UX Design", percentage: 80 },
+      { name: "Go", percentage: 78 }
     ],
     professional: [
       { name: "Problem Solving", percentage: 92 },

@@ -47,13 +47,13 @@ const Navbar = () => {
   
           {/* Social Links - Desktop */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
+            <a href="https://github.com/Co-lest" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
+            <a href="https://www.linkedin.com/in/mark-tom-692664296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:your-email@example.com" className="text-gray-600 hover:text-primary-600 transition-colors">
+            <a href="mailto:markbironga@gmail.com" className="text-gray-600 hover:text-primary-600 transition-colors">
               <Mail size={20} />
             </a>
           </div>
@@ -82,13 +82,13 @@ const Navbar = () => {
             <NavLink to="/contact" className="nav-link text-xl" onClick={closeMenu}>Contact</NavLink>
             
             <div className="flex items-center gap-6 mt-8">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
+              <a href="https://github.com/Co-lest" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
+              <a href="https://www.linkedin.com/in/mark-tom-692664296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-primary-600 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:your-email@example.com" className="text-gray-600 hover:text-primary-600 transition-colors">
+              <a href="mailto:markbironga@gmail.com" className="text-gray-600 hover:text-primary-600 transition-colors">
                 <Mail size={24} />
               </a>
             </div>

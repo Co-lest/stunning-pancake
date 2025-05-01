@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Download } from 'lucide-react';
+import { ArrowRight, View } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -53,10 +53,10 @@ const Hero = () => {
               </Link>
               
               <a 
-                href="#" 
+                href="../../" 
                 className="btn btn-secondary px-6 py-3"
               >
-                Download CV <Download className="ml-2" size={18} />
+                View resume <View className="ml-2" size={18} />
               </a>
             </motion.div>
           </motion.div>
@@ -70,8 +70,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-full h-[500px] bg-gradient-to-tr from-primary-600 to-accent-500 rounded-xl overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/4974915/pexels-photo-4974915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                  alt="Developer" 
+                  src="./../../assets/me.jpeg"
+                  alt="Me" 
                   className="w-full h-full object-cover mix-blend-overlay opacity-80"
                 />
               </div>

@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4 mt-4">
               <a 
-                href="https://github.com" 
+                href="https://github.com/Co-lest" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -27,7 +27,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/mark-tom-692664296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -35,7 +35,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="mailto:your-email@example.com"
+                href="mailto:markbironga@gmail.com"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <Mail size={20} />
@@ -71,14 +71,14 @@ const Footer = () => {
 
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
-            <p className="text-gray-400 mb-2">Email: your-email@example.com</p>
-            <p className="text-gray-400 mb-2">Location: City, Country</p>
+            <p className="text-gray-400 mb-2">Email: markbironga@gmail.com</p>
+            <p className="text-gray-400 mb-2">Location: Eldoret, Kenya</p>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-center md:text-left">
-            &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Mark Tom. All rights reserved.
           </p>
           <button 
             onClick={scrollToTop}

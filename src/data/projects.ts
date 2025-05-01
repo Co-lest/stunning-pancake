@@ -13,8 +13,8 @@ interface Project {
     {
       id: 1,
       title: "Kaboom js walking simulator",
-      description: "A canvas animated js displaying my skills in a coll way.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      description: "A canvas animated js displaying my skills in a cool way.",
+      image: "../../assets/Portfolio.jpeg",
       tags: ["React", "kaboomjs", "Tailwind"],
       featured: true,
       liveUrl: "https://main--colestportfolio.netlify.app/",
@@ -23,51 +23,61 @@ interface Project {
     {
       id: 2,
       title: "Quiz app",
-      description: "A simple quiz website that uses an api for questions",
-      image: "https://images.pexels.com/photos/7648339/pexels-photo-7648339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      description: "A simple quiz website that uses an api to fetch for questions.",
+      image: "../../assets/quiz.jpeg",
       tags: ["React", "Rest API", "Tailwind"],
       featured: true,
       liveUrl: "https://peaceful-chaja-cebcfc.netlify.app/",
-      githubUrl: "https://github.com"
+      githubUrl: "https://github.com/Co-lest"
     },
     {
       id: 3,
-      title: "Finance Tracker App",
-      description: "A personal finance application for budgeting and expense tracking.",
-      image: "https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "ChartJS", "NodeJS"],
+      title: "A reconnect app",
+      description: "An app that helps you reconnect with childhood friends from the past.",
+      image: "../../assets/reconnect.jpeg",
+      tags: ["React", "SQL", "NodeJS", "Cloud", "AWS", "Rest API"],
       featured: true,
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://reconnectingeldersv2.onrender.com/",
+      githubUrl: "https://github.com/Suheil001/ReconnectingElders"
     },
     {
       id: 4,
-      title: "Recipe Finder Application",
-      description: "Search for recipes based on ingredients and dietary preferences.",
-      image: "https://images.pexels.com/photos/6287447/pexels-photo-6287447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["JavaScript", "API", "CSS"],
+      title: "A notes app",
+      description: "An app that helps you save your notes in your browser.",
+      image: "../../assets/notes.jpeg",
+      tags: ["JavaScript", "HTML", "CSS"],
       featured: false,
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://notifynnotebook.netlify.app/",
+      githubUrl: "https://github.com/Co-lest/Notes"
     },
     {
       id: 5,
-      title: "Real Estate Listing Site",
-      description: "Property listings with advanced search and filtering options.",
-      image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "NextJS", "MongoDB"],
+      title: "Weather App",
+      description: "A weather forecast app.",
+      image: "../../assets/weather.jpeg",
+      tags: ["HTML", "Tailwind", "Javascript", "Rest API"],
       featured: false,
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://weatherwarn.netlify.app/",
+      githubUrl: "https://github.com/Co-lest/weather-warn"
     },
     {
       id: 6,
-      title: "Social Media Dashboard",
-      description: "Centralized platform for managing multiple social media accounts.",
-      image: "https://images.pexels.com/photos/5912564/pexels-photo-5912564.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      tags: ["React", "GraphQL", "TailwindCSS"],
-      featured: false,
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      title: "File organiser",
+      description: "A Golang project that organises your files in folders. e.g pictures in one file, videos in another file.",
+      image: "../../assets/files.jpeg",
+      tags: ["Go"],
+      featured: true,
+      liveUrl: "https://github.com/Co-lest/file-organiser",
+      githubUrl: "https://github.com/Co-lest/file-organiser"
+    },
+    {
+      id: 7,
+      title: "Majanta project",
+      description: "An upcoming app/website that connects employers and employees and has verified payment methods using smart contracts. No live URl yet",
+      image: "../../assets/majanta.jpeg",
+      tags: ["Go", "SQL", "Reast API", "React", "Tailwind", "Nodejs", "Blockchain Smart Contracts"],
+      featured: true,
+      liveUrl: "javascript:void(0)",
+      githubUrl: "https://github.com/majanta"
     },
   ];

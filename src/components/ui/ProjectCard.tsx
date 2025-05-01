@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
-import { ReactNode } from "react";
 
 interface ProjectCardProps {
   title: string;
