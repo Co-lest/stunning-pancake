@@ -85,7 +85,7 @@ interface Project {
       image: majanta,
       tags: ["Go", "SQL", "Reast API", "React", "Tailwind", "Nodejs", "Blockchain Smart Contracts"],
       featured: true,
-      liveUrl: "javascript:void(0)",
+      liveUrl: "#",
       githubUrl: "https://github.com/majanta"
     },
-  ];
+  ]; //if liveurl === # preventdefault

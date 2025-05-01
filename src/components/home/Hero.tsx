@@ -68,7 +68,6 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="hidden lg:block"
           >
             <div className="relative">
               <div className="w-full h-[500px] bg-gradient-to-tr from-primary-600 to-accent-500 rounded-xl overflow-hidden">
@@ -90,7 +89,6 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Decorative elements */}
       <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent"></div>
     </section>
   );
