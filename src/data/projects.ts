@@ -86,6 +86,6 @@ interface Project {
       tags: ["Go", "SQL", "Reast API", "React", "Tailwind", "Nodejs", "Blockchain Smart Contracts"],
       featured: true,
       liveUrl: "#",
-      githubUrl: "https://github.com/majanta"
+      githubUrl: "https://github.com/Co-lest"
     },
   ]; //if liveurl === # preventdefault
